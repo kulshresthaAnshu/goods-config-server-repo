@@ -3,6 +3,7 @@ spring:
     schema: classpath*:db/mysql/schema.sql
     username: root
     password: root
+    initialization-mode: ALWAYS
   cloud:
     config:
       # Allow the microservices to override the remote properties with their own System properties or config file
