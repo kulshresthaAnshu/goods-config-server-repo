@@ -1,10 +1,6 @@
 server:
-  port: 8888
-  
-spring:
-  cloud:
-    loadbalancer:
-      enabled: true
+  port: 8093
+
 eureka:
   instance:
     leaseRenewalIntervalInSeconds: 1
