@@ -1,6 +1,5 @@
 spring:
   datasource:
-    schema: classpath*:db/mysql/schema.sql
     username: root
     password: root
     initialization-mode: ALWAYS
