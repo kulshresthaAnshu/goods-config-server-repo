@@ -1,5 +1,5 @@
 spring:
-  profle: mysql
+  profiles: mysql
   datasource:
     username: root
     password: root
